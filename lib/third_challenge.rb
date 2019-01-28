@@ -7,7 +7,17 @@ def third_challenge
         },
       :hero => {:name => "Romeo", :age => "15", :status => "alive"
         },
-      :hero_friends => [{:name => "Benvolio", :age => "17", :attitude => "worried"}, {:name => "Mercutio", :age => "18", :attitude => "hot-headed"}]
+      contacts = {
+  "Jon Snow" => {
+    name: "Jon",
+    email: "jon_snow@thewall.we",
+    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
+  "Freddy Mercury" => {
+    name: "Freddy",
+    email: "freddy@mercury.com",
+    favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+  }
+}
    }, 
    :capulet => {
       :patriarch => {:name => "Lord Capulet", :age => "50"
