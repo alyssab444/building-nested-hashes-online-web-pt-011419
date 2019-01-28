@@ -6,26 +6,8 @@ def third_challenge
       :matriarch => {:name => "Lady Montague", :age => "54"
         },
       :hero => {:name => "Romeo", :age => "15", :status => "alive"
-        },
-      contacts = {
-  "Jon Snow" => {
-    name: "Jon",
-    email: "jon_snow@thewall.we",
-    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
-  "Freddy Mercury" => {
-    name: "Freddy",
-    email: "freddy@mercury.com",
-    favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-  }
-}contacts = {
-  "Jon Snow" => {
-    name: "Jon",
-    email: "jon_snow@thewall.we",
-    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
-  "Freddy Mercury" => {
-    name: "Freddy",
-    email: "freddy@mercury.com",
-    favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
+        }, :hero_friends => [{name: "Benvolio", age: "17", attitude: "worried"},{name: "Mercutio", age: "18", attitude: "hot-headed"}]
+     
   }
 }
    }, 
